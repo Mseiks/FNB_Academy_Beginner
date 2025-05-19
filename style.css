@@ -1,0 +1,72 @@
+body{
+background-color: #333333;
+}
+
+h1, h2{
+color: green;
+font-family: sans-serif;
+}
+
+h4{
+color: white;
+}
+
+p{
+color: coral;
+font-family: fantasy;
+}
+
+ul{
+list-style-image: url('./images/image4.0.png');
+color: white;
+}
+
+img{
+width: 400px;
+height: 400px;
+padding-left: 10px;
+}
+
+
+.navbar{
+position: absolute;
+right: 0;
+top: 0;
+
+}
+.navbar a{
+font-family: Helvetica, sans-serif;
+text-decoration: none;
+background-color: aquamarine;
+padding: 5px;
+}
+.navbar a:hover{
+background-color: green;
+color: #ffffff;
+}
+.active{
+background-color: blue;
+color: green;
+}
+
+.container{
+display: flex;
+}
+
+.image1{
+width: 40%;
+padding-left: 2%;
+
+}
+
+.a_container{
+width: 30%;
+display: flex;
+padding-left: 15%;
+}
+
+.co_container{
+width: 30%;
+display: flex;
+padding-left: 15%;
+}
